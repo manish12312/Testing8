@@ -12,6 +12,8 @@ public class Demo
 		dm.multiple();
 		dm.m1();
 		dm.subtract();
+		dm.m2();
+		dm.m3();
 	
 	}
 	
@@ -33,6 +35,15 @@ public class Demo
 		 System.out.println(" Subtract method ");
 	 }
 	
+	 public void m2()
+	 {
+		 System.out.println(" M2 method ");
+	 }
+	 
+	 public void m3()
+	 {
+		 System.out.println(" M3 method ");
+	 }
 	
 
 }
