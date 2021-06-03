@@ -10,7 +10,8 @@ public class Demo
 		Demo  dm=new Demo();
 		dm.add();
 		dm.multiple();
-		
+		dm.m1();
+		dm.subtract();
 	
 	}
 	
@@ -22,6 +23,14 @@ public class Demo
 	 public void multiple()
 	 {
 		 System.out.println(" Multiply method ");
+	 }
+	 public void m1()
+	 {
+		 System.out.println(" M1 method ");
+	 }
+	 public void subtract()
+	 {
+		 System.out.println(" Subtract method ");
 	 }
 	
 	
